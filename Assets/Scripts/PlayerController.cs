@@ -1,7 +1,7 @@
 using UnityEngine;
 using UnityEngine.InputSystem;
 
-public class PlayerControllet : MonoBehaviour
+public class PlayerController : MonoBehaviour
 {
     
 
