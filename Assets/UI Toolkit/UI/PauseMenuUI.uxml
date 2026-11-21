@@ -1,0 +1,10 @@
+<ui:UXML xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:ui="UnityEngine.UIElements" xmlns:uie="UnityEditor.UIElements" noNamespaceSchemaLocation="../../../UIElementsSchema/UIElements.xsd" editor-extension-mode="False">
+    <Style src="project://database/Assets/UI%20Toolkit/UI/GameUIStyleSheet.uss?fileID=7433441132597879392&amp;guid=e21aed17d566ddf4fb654225a44b64c1&amp;type=3#GameUIStyleSheet"/>
+    <ui:VisualElement name="pause-menu" style="flex-grow: 1; background-color: rgba(0, 0, 0, 0.52); justify-content: center; align-self: center; position: relative; width: 1920px; height: 1080px;">
+        <ui:VisualElement name="pause-menu-bg" style="flex-grow: 1; width: 800px; align-self: center; background-color: rgb(247, 244, 213); border-top-left-radius: 121px; border-top-right-radius: 121px; border-bottom-right-radius: 121px; border-bottom-left-radius: 121px; justify-content: center;">
+            <ui:Button text="Resume" name="resume-button" style="align-self: center; font-size: 59px; width: 500px; background-color: rgb(16, 86, 102); color: rgb(247, 244, 213); border-top-left-radius: 27px; border-top-right-radius: 27px; border-bottom-right-radius: 27px; border-bottom-left-radius: 27px;"/>
+            <ui:Button text="Main Menu" name="main-menu-button" style="align-self: center; font-size: 59px; width: 500px; background-color: rgb(16, 86, 102); color: rgb(247, 244, 213); border-top-left-radius: 27px; border-top-right-radius: 27px; border-bottom-right-radius: 27px; border-bottom-left-radius: 27px;"/>
+            <ui:Button text="Quit" name="quit-button" enable-rich-text="true" class="button" style="align-self: center; font-size: 59px; width: 500px; background-color: rgb(16, 86, 102); color: rgb(247, 244, 213); border-top-left-radius: 27px; border-top-right-radius: 27px; border-bottom-right-radius: 27px; border-bottom-left-radius: 27px;"/>
+        </ui:VisualElement>
+    </ui:VisualElement>
+</ui:UXML>

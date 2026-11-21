@@ -1,0 +1,16 @@
+<ui:UXML xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:ui="UnityEngine.UIElements" xmlns:uie="UnityEditor.UIElements" noNamespaceSchemaLocation="../../../UIElementsSchema/UIElements.xsd" editor-extension-mode="False">
+    <Style src="project://database/Assets/UI%20Toolkit/UI/GameUIStyleSheet.uss?fileID=7433441132597879392&amp;guid=e21aed17d566ddf4fb654225a44b64c1&amp;type=3#GameUIStyleSheet"/>
+    <ui:VisualElement name="credits-menu-bg" style="flex-grow: 1; background-color: rgb(10, 51, 35); position: relative; width: 1920px; height: 1080px; justify-content: flex-end; align-self: center; align-content: flex-start;">
+        <ui:VisualElement name="credits-bg" style="flex-grow: 1; background-color: rgb(247, 244, 213); width: 1000px; justify-content: flex-start; align-self: center; border-top-left-radius: 67px; border-top-right-radius: 67px; border-bottom-right-radius: 67px; border-bottom-left-radius: 67px; border-top-width: 4px; border-right-width: 4px; border-bottom-width: 4px; border-left-width: 4px; height: 653px;">
+            <ui:Label text="Credits" name="credits-label" style="width: 500px; align-self: center; font-size: 87px; color: rgb(16, 86, 102); -unity-text-align: upper-center; -unity-font-style: bold;"/>
+            <ui:Label text="" name="space-label" style="height: 31px;"/>
+            <ui:Label text=" Game made by:" name="game-made-by-label" style="font-size: 56px; -unity-font-style: bold; color: rgb(131, 153, 88); width: 480px;"/>
+            <ui:Label text="Ania Assunçao" name="ania-label" style="font-size: 59px; -unity-font-style: normal; color: rgb(0, 0, 0); width: 482px; justify-content: flex-start; align-self: flex-end; align-items: flex-end;"/>
+            <ui:Label text="Mira Mikhaylova" name="mira-label" style="font-size: 59px; -unity-font-style: normal; color: rgb(0, 0, 0); width: 482px; justify-content: flex-start; align-self: flex-end; align-items: auto;"/>
+            <ui:Label text="Celine Maraoui" name="celine-label" style="font-size: 59px; -unity-font-style: normal; color: rgb(0, 0, 0); width: 482px; justify-content: flex-start; align-self: flex-end; align-items: flex-end; -unity-text-align: lower-left;"/>
+            <ui:Label text=" Resources:" name="resources-label" style="font-size: 56px; -unity-font-style: bold; color: rgb(131, 153, 88); width: 480px;"/>
+            <ui:Label text="" name="space-label" style="height: 160px;"/>
+            <ui:Button text="Main Menu" name="main-menu-button" class="button" style="background-color: rgb(16, 86, 102); align-self: center; align-content: flex-start; width: 500px; height: 100px; font-size: 59px; color: rgb(247, 244, 213); border-top-left-radius: 19px; border-top-right-radius: 19px; border-bottom-right-radius: 19px; border-bottom-left-radius: 19px;"/>
+        </ui:VisualElement>
+    </ui:VisualElement>
+</ui:UXML>

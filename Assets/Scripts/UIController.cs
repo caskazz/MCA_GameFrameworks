@@ -4,7 +4,7 @@ using UnityEngine.SceneManagement;
 
 public class UIController : MonoBehaviour
 {
-    private Button startButton, creditsButton, quitButton;
+    private Button startButton, creditsButton, quitButton, mainmenuButton;
 
     void Start()
     {
@@ -28,7 +28,7 @@ public class UIController : MonoBehaviour
     void CreditsButtonPressed()
     {
         Debug.Log(SceneUtility.GetBuildIndexByScenePath("Assets/Scenes/Credits.unity"));
-        SceneManager.LoadScene("Credits");
+        SceneManager.LoadScene("CreditScene");
 
         Debug.Log("Credits pressed!");
     }

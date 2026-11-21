@@ -13,7 +13,8 @@
                     "expectedControlType": "Vector2",
                     "processors": "",
                     "interactions": "",
-                    "initialStateCheck": true
+                    "initialStateCheck": true,
+                    "priority": 0
                 },
                 {
                     "name": "Jump",
@@ -22,7 +23,8 @@
                     "expectedControlType": "",
                     "processors": "",
                     "interactions": "",
-                    "initialStateCheck": false
+                    "initialStateCheck": false,
+                    "priority": 0
                 },
                 {
                     "name": "GrabInteraction",
@@ -31,7 +33,8 @@
                     "expectedControlType": "",
                     "processors": "",
                     "interactions": "",
-                    "initialStateCheck": false
+                    "initialStateCheck": false,
+                    "priority": 0
                 },
                 {
                     "name": "Run",
@@ -40,7 +43,8 @@
                     "expectedControlType": "",
                     "processors": "",
                     "interactions": "",
-                    "initialStateCheck": false
+                    "initialStateCheck": false,
+                    "priority": 0
                 },
                 {
                     "name": "Attack",
@@ -49,7 +53,8 @@
                     "expectedControlType": "",
                     "processors": "",
                     "interactions": "",
-                    "initialStateCheck": false
+                    "initialStateCheck": false,
+                    "priority": 0
                 },
                 {
                     "name": "Pause",
@@ -58,7 +63,8 @@
                     "expectedControlType": "",
                     "processors": "",
                     "interactions": "",
-                    "initialStateCheck": false
+                    "initialStateCheck": false,
+                    "priority": 0
                 }
             ],
             "bindings": [
@@ -164,7 +170,7 @@
                 {
                     "name": "",
                     "id": "09c32bb6-00ba-42ec-b51b-31beb9985090",
-                    "path": "",
+                    "path": "<Keyboard>/escape",
                     "interactions": "",
                     "processors": "",
                     "groups": "",
@@ -185,7 +191,8 @@
                     "expectedControlType": "",
                     "processors": "",
                     "interactions": "",
-                    "initialStateCheck": false
+                    "initialStateCheck": false,
+                    "priority": 0
                 }
             ],
             "bindings": [
