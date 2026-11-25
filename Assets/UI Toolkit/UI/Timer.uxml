@@ -1,0 +1,7 @@
+<ui:UXML xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:ui="UnityEngine.UIElements" xmlns:uie="UnityEditor.UIElements" noNamespaceSchemaLocation="../../../UIElementsSchema/UIElements.xsd" editor-extension-mode="False">
+    <ui:VisualElement style="flex-grow: 1; position: absolute; width: 488px; background-color: rgb(16, 86, 102); height: 80px; justify-content: space-around; align-self: auto; align-content: auto; align-items: flex-start; top: 0; left: 2px;">
+        <ui:Label text="Time Remaining:" name="time-remaining-label" style="font-size: 50px; color: rgb(247, 244, 213); height: 70px; width: 485px; -unity-text-align: upper-left; align-self: flex-start;">
+            <ui:Label text="" name="timer-label" style="-unity-text-align: upper-left; align-self: flex-end; width: 76px; height: 48px;"/>
+        </ui:Label>
+    </ui:VisualElement>
+</ui:UXML>
